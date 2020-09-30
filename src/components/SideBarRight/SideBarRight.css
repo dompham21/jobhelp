@@ -1,0 +1,121 @@
+.sidebar-right {
+    border: dashed 1px transparent;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 3px;
+    font-size: 20px;
+    max-width: 100% !important;
+    width: 100% !important;
+    flex: 0 0 100% !important;
+}
+
+.sidebar-right-content {
+    padding: 30px 20px 10px;
+}
+
+.sidebar-right-widget {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-right-widget > button {
+    color: white !important;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: #ff214f;
+    margin-bottom: 10px;
+    height: 45px !important;
+}
+.sidebar-right-widget > .widget-btn-showposition {
+    pointer-events: none;
+}
+
+.sidebar-right-widget > .sidebar-right-btn-save {
+    border: solid 1px #ff214f ;
+    color: #ff214f !important;
+    background-color: white ;
+    transition: .5s;
+
+}
+
+ .sidebar-right-btn-save:hover {
+    background-color: #ff214f;
+    color: white !important;
+
+}
+
+.sidebar-right-information > h1 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.sidebar-right-information > ul {
+    list-style: none;
+    color: #535353;
+    padding-left: 0 !important;
+}
+
+.sidebar-right-information > ul > li {
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #efefef;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.sidebar-right-information > ul > li > svg.information-icon {
+    left: 0;
+    position: absolute;
+    top: 20px;
+    font-size: 25px;
+
+}
+
+.sidebar-right-information > ul > li > h4 {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.sidebar-right-information > ul > li > span {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.sidebar-right-contact > h1 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.sidebar-right-form-textarea {
+    min-height: 120px !important;
+    padding: 10px 20px;
+    font-size: 15px;
+
+}
+
+.sidebar-right-form-btn-send {
+    cursor: pointer;
+    color: #FFF !important;
+    outline: none;
+    background: #ff214f;
+    padding: 13px 30px 11px 30px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+    height: 45px;
+}

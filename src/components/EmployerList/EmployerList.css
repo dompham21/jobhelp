@@ -1,0 +1,79 @@
+.list-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.optionbar {
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    margin-bottom: 45px;
+}
+
+.optionSort > span {
+    margin-right: 15px;
+}
+
+.optionSort > div >.ant-select-selector {
+    padding: 0 60px 0 10px !important;
+    height: 45px  !important;
+    width: 200px !important;
+}
+
+.optionSort > div >.ant-select-selector > span.ant-select-selection-item {
+    line-height: 38px !important;
+}
+
+.optionlist {
+    line-height: 45px;
+    text-align: end;
+    
+}
+
+.optionlist > a {
+    color: #ff214f;
+    border: solid 1px #ff214f;
+    padding: 7px 9px 5px 9px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.active-view-btn {
+    background: #ff214f;
+    border: solid 1px #ff214f;
+    color: white !important;
+}
+
+.list-content > ul.ant-pagination  {
+    text-align: center;
+}
+
+.list-content > ul.ant-pagination > li.ant-pagination-next > a,
+.list-content > ul.ant-pagination > li.ant-pagination-prev > a {
+    padding: 7px 14px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #4d4d4d;
+    font-weight: 500;
+    background-color: white;
+}
+
+.list-content > ul.ant-pagination > li.ant-pagination-next > a:hover,
+.list-content > ul.ant-pagination > li.ant-pagination-prev > a:hover {
+    background: #ff214f;
+    color: #fff;
+}
+
+
+.ant-pagination-item-active a,
+.ant-pagination-item-active:hover, 
+.ant-pagination-item:hover a,
+.ant-pagination-item-active,
+.ant-pagination-item:hover{
+    background: #ff214f;
+    color: #fff;
+    border-color: #ff214f ;
+}
+
+

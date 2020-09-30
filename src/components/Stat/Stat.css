@@ -1,0 +1,21 @@
+.stat-counter {
+    background: url('http://theme-vessel-templates.theme-vessel.ey.r.appspot.com/iscout/img/img-2.jpg') no-repeat center;
+    height: 250px;
+}
+
+.stat-counter-container {
+    margin: 0 50px;
+    padding-top:40px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.stat-counter-container > div > h1 {
+    color: white;
+}
+
+.stat-counter-container > div > svg {
+    font-size: 45px;
+}
